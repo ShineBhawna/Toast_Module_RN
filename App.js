@@ -12,7 +12,7 @@ class App extends Component {
                React Native Custom Modules{"\n"} 
               </Text>
             <Button onPress={() => {
-            ToastExample.show('Awesome!!', ToastExample.SHORT,);
+            ToastExample.show('Awesome!!', ToastExample.LONG,);
             
              }} title="Press This Button"/> 
 
